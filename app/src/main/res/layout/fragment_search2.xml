@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".fragments.body.SearchFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Категории"
+            android:textColor="@color/primary_text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp">
+
+            <Button
+                android:id="@+id/genres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_full"
+                android:text="Жанры"
+                android:textColor="@color/primary_text"
+                app:cornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/countries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/btn_full"
+                android:text="Страны"
+                android:textColor="@color/primary_text"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/genres"
+                app:layout_constraintStart_toEndOf="@+id/genres"
+                app:layout_constraintTop_toTopOf="@+id/genres" />
+
+            <Button
+                android:id="@+id/years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_full"
+                android:text="Года"
+                android:textColor="@color/primary_text"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/genres"
+                app:layout_constraintStart_toStartOf="@+id/genres"
+                app:layout_constraintTop_toBottomOf="@+id/genres" />
+
+            <Button
+                android:id="@+id/animeSerials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/btn_full"
+                android:padding="8dp"
+                android:text="Аниме-сериалы"
+                android:textColor="@color/primary_text"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/years"
+                app:layout_constraintStart_toEndOf="@+id/years"
+                app:layout_constraintTop_toTopOf="@+id/years" />
+
+            <Button
+                android:id="@+id/animeMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_full"
+                android:padding="8dp"
+                android:text="Аниме-фильмы"
+                android:textColor="@color/primary_text"
+                app:cornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="@+id/years"
+                app:layout_constraintTop_toBottomOf="@+id/years" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

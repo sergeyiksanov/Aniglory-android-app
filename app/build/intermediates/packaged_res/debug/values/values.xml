@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#45A04E</color>
+    <color name="akcent2">#F0DCF2</color>
+    <color name="background">#CECED1</color>
+    <color name="background_card">#E1E3E5</color>
+    <color name="background_night">#0D0D0D</color>
+    <color name="black">#FF000000</color>
+    <color name="exception">#C80000</color>
+    <color name="item_night">#4C4C4C</color>
+    <color name="new_background">#212121</color>
+    <color name="new_primary">#3559E0</color>
+    <color name="new_text_primary">#FFFFFF</color>
+    <color name="new_text_secondary">#A7A7A7</color>
+    <color name="primary">#0582ca</color>
+    <color name="primary_text">#18181A</color>
+    <color name="secondary_text">#7A7A7F</color>
+    <color name="text2">#9A9A9A</color>
+    <color name="text_black">#303033</color>
+    <color name="warning">#C8A700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#DADADA</color>
+    <string name="app_name">Aniglory</string>
+    <string name="default_web_client_id" translatable="false">951767503502-607u7u5n4kd66kacuk6up6fhsa53t4io.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">951767503502</string>
+    <string name="google_api_key" translatable="false">AIzaSyDJFe9wLthfYHHHU8rwKwS4BCrdELt1Iig</string>
+    <string name="google_app_id" translatable="false">1:951767503502:android:f30fa316f568e796666fdf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDJFe9wLthfYHHHU8rwKwS4BCrdELt1Iig</string>
+    <string name="google_storage_bucket" translatable="false">aniglory-app.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">aniglory-app</string>
+    <style name="Base.Theme.Aniglory" parent="Theme.AppCompat.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/new_text_primary</item>
+    </style>
+    <style name="ClickableView">
+        <item name="colorControlHighlight">@android:color/darker_gray</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Theme.Aniglory" parent="Base.Theme.Aniglory">
+        <item name="android:statusBarColor">@color/background_night</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

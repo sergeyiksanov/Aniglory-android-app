@@ -1,0 +1,84 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id("com.google.gms.google-services")
+}
+
+android {
+    namespace 'com.example.aniglory_app'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.aniglory_app"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+}
+
+dependencies {
+    //preferences_data
+    implementation "androidx.datastore:datastore-preferences:1.0.0-alpha01"
+    //adaptive
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    //exo player
+    implementation 'com.google.android.exoplayer:exoplayer:2.19.0'
+    // coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
+    // HTTP
+    implementation("io.ktor:ktor-client-core:2.3.2")
+    implementation("io.ktor:ktor-client-android:2.3.2")
+    implementation("io.ktor:ktor-client-okhttp:2.3.2")
+    // JSON
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.2")
+    implementation("io.ktor:ktor-serialization-gson:2.3.2")
+    // IMAGE
+    implementation("io.coil-kt:coil:2.4.0")
+    // BASE
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.4.1'
+    // TEST
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    // FIREBASE
+    implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation 'com.google.firebase:firebase-auth'
+    //SLIDING
+    implementation 'com.google.android.material:material:1.9.0'
+    //VIEWMODEL
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation 'androidx.fragment:fragment-ktx:1.6.1'
+
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+    implementation 'com.google.code.gson:gson:2.8.6'
+}

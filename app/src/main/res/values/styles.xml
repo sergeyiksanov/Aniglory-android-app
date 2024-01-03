@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ClickableView">
+        <item name="colorControlHighlight">@android:color/darker_gray</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
+
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/new_text_primary</item>
+    </style>
+</resources>

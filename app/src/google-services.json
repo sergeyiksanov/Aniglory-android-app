@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "951767503502",
+    "project_id": "aniglory-app",
+    "storage_bucket": "aniglory-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951767503502:android:f30fa316f568e796666fdf",
+        "android_client_info": {
+          "package_name": "com.example.aniglory_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951767503502-dn0k31btmfupeo5k2uq9mqp5mjdb1802.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aniglory_app",
+            "certificate_hash": "f9f0d66dd6132e1d0d9990aadf7cd75f3969c927"
+          }
+        },
+        {
+          "client_id": "951767503502-607u7u5n4kd66kacuk6up6fhsa53t4io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJFe9wLthfYHHHU8rwKwS4BCrdELt1Iig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951767503502-17nm4g0c5leqc498ok4k48n4tsc3paiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
