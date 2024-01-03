@@ -180,10 +180,6 @@
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_email.xml"
     },
     {
-        "merged": "com.example.aniglory_app-merged_res-52:/layout_activity_player_kodik.xml.flat",
-        "source": "com.example.aniglory_app-main-54:/layout/activity_player_kodik.xml"
-    },
-    {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/drawable_btn_full_primary.xml.flat",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/drawable/btn_full_primary.xml"
     },
@@ -530,6 +526,10 @@
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/drawable_profile_new_accent.xml.flat",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/drawable/profile_new_accent.xml"
+    },
+    {
+        "merged": "com.example.aniglory_app-merged_res-52:/drawable_developing_icon.xml.flat",
+        "source": "com.example.aniglory_app-main-54:/drawable/developing_icon.xml"
     },
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/drawable_profile.xml.flat",

@@ -1,4 +1,4 @@
-#Mon Jan 01 02:13:05 EET 2024
+#Wed Jan 03 21:29:02 EET 2024
 base.0=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex

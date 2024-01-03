@@ -3753,6 +3753,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable developing_icon
 drawable edit_text
 drawable exo_controls_fastforward
 drawable exo_controls_fullscreen_enter

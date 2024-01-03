@@ -55,6 +55,7 @@ drawable btn_full
 drawable btn_full_primary
 drawable btn_none
 drawable btn_top
+drawable developing_icon
 drawable edit_text
 drawable filters_new
 drawable gradient
