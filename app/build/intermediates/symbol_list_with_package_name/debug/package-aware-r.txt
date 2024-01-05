@@ -1457,6 +1457,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color dominant_color
 color error_color_material_dark
 color error_color_material_light
 color exception
@@ -2097,6 +2098,7 @@ color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color new_background
+color new_card_background
 color new_primary
 color new_text_primary
 color new_text_secondary
@@ -3748,6 +3750,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable default_avatar
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3834,6 +3837,8 @@ drawable exo_styled_controls_speed
 drawable exo_styled_controls_subtitle_off
 drawable exo_styled_controls_subtitle_on
 drawable exo_styled_controls_vr
+drawable favorite
+drawable favorite_primary
 drawable filters_new
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3933,10 +3938,14 @@ drawable profile1
 drawable profile2
 drawable profile_new
 drawable profile_new_accent
+drawable profile_primary
 drawable progress
 drawable rounded
+drawable search
 drawable search_new
 drawable search_new_accent
+drawable search_primary
+drawable shadow_gradient
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -4079,6 +4088,9 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_fullscreen
+id btnAbout
+id btnDonate
+id btn_signInOut
 id btn_skip
 id button
 id button3
@@ -4502,6 +4514,7 @@ id sec_controlvid2
 id select_dialog_listview
 id selected
 id selection_type
+id shadow
 id share
 id sharedValueSet
 id sharedValueUnset
@@ -4635,6 +4648,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userAvatar
+id userId
+id userName
+id userStatus
 id username
 id vertical_only
 id video_decoder_gl_surface_view
@@ -4837,6 +4854,8 @@ layout fragment_email
 layout fragment_episodes
 layout fragment_home_screen
 layout fragment_menu
+layout fragment_navigation_menu
+layout fragment_new_profile
 layout fragment_password
 layout fragment_profile
 layout fragment_search
@@ -4923,6 +4942,7 @@ layout support_simple_spinner_dropdown_item
 layout title
 layout title_horizontal
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals exo_controls_fastforward_by_amount_description
 plurals exo_controls_rewind_by_amount_description

@@ -6,9 +6,11 @@ color background
 color background_card
 color background_night
 color black
+color dominant_color
 color exception
 color item_night
 color new_background
+color new_card_background
 color new_primary
 color new_text_primary
 color new_text_secondary
@@ -55,8 +57,11 @@ drawable btn_full
 drawable btn_full_primary
 drawable btn_none
 drawable btn_top
+drawable default_avatar
 drawable developing_icon
 drawable edit_text
+drawable favorite
+drawable favorite_primary
 drawable filters_new
 drawable gradient
 drawable gradient_accent
@@ -71,10 +76,14 @@ drawable profile1
 drawable profile2
 drawable profile_new
 drawable profile_new_accent
+drawable profile_primary
 drawable progress
 drawable rounded
+drawable search
 drawable search_new
 drawable search_new_accent
+drawable search_primary
+drawable shadow_gradient
 font bauhas
 id abandoned
 id about
@@ -107,6 +116,9 @@ id blur
 id bodyFragment
 id bookmarks
 id bt_fullscreen
+id btnAbout
+id btnDonate
+id btn_signInOut
 id btn_skip
 id button
 id button3
@@ -179,6 +191,7 @@ id searchView
 id season
 id sec_controlvid1
 id sec_controlvid2
+id shadow
 id share
 id sheet
 id stars
@@ -219,6 +232,10 @@ id title
 id titleID
 id title_img
 id title_txt
+id userAvatar
+id userId
+id userName
+id userStatus
 id username
 id viewException
 id viewWarning
@@ -253,6 +270,8 @@ layout fragment_email
 layout fragment_episodes
 layout fragment_home_screen
 layout fragment_menu
+layout fragment_navigation_menu
+layout fragment_new_profile
 layout fragment_password
 layout fragment_profile
 layout fragment_search
@@ -268,6 +287,7 @@ layout player_selection
 layout title
 layout title_horizontal
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id

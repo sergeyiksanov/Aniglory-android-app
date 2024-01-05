@@ -6,9 +6,11 @@
     <color name="background_card">#E1E3E5</color>
     <color name="background_night">#0D0D0D</color>
     <color name="black">#FF000000</color>
+    <color name="dominant_color">#3559E0</color>
     <color name="exception">#C80000</color>
     <color name="item_night">#4C4C4C</color>
     <color name="new_background">#212121</color>
+    <color name="new_card_background">#434343</color>
     <color name="new_primary">#3559E0</color>
     <color name="new_text_primary">#FFFFFF</color>
     <color name="new_text_secondary">#A7A7A7</color>

@@ -6,55 +6,73 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.aniglory_app.R
+import com.example.aniglory_app.databinding.FragmentNavigationMenuBinding
+import com.example.aniglory_app.fragments.body.BookmarksFragment
+import com.example.aniglory_app.fragments.body.ProfileFragment
+import com.example.aniglory_app.fragments.body.SearchFragment
+import com.example.aniglory_app.fragments.body.TitlesFragment
+import com.example.aniglory_app.fragments.body.new_interface.NewProfileFragment
+import com.example.aniglory_app.fragments.footer.MenuFragment
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [NavigationMenuFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class NavigationMenuFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    lateinit var binding: FragmentNavigationMenuBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_navigation_menu, container, false)
+
+        binding = FragmentNavigationMenuBinding.inflate(layoutInflater)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.iSearch.setOnClickListener {
+            binding.iSearch.setImageResource(R.drawable.search_primary)
+            binding.iBookmark.setImageResource(R.drawable.favorite)
+            binding.iProfile.setImageResource(R.drawable.profile)
+            binding.iHome.setImageResource(R.drawable.favorite)
+
+            startFragment(SearchFragment.newInstance())
+        }
+        binding.iBookmark.setOnClickListener {
+            binding.iSearch.setImageResource(R.drawable.search)
+            binding.iBookmark.setImageResource(R.drawable.favorite_primary)
+            binding.iProfile.setImageResource(R.drawable.profile)
+            binding.iHome.setImageResource(R.drawable.favorite)
+
+            startFragment(BookmarksFragment())
+        }
+        binding.iProfile.setOnClickListener {
+            binding.iSearch.setImageResource(R.drawable.search)
+            binding.iBookmark.setImageResource(R.drawable.favorite)
+            binding.iProfile.setImageResource(R.drawable.profile_primary)
+            binding.iHome.setImageResource(R.drawable.favorite)
+
+            startFragment(NewProfileFragment())
+        }
+        binding.iHome.setOnClickListener {
+            binding.iSearch.setImageResource(R.drawable.search)
+            binding.iBookmark.setImageResource(R.drawable.favorite)
+            binding.iProfile.setImageResource(R.drawable.profile)
+            binding.iHome.setImageResource(R.drawable.favorite_primary)
+
+            startFragment(TitlesFragment.newInstance())
+        }
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment NavigationMenuFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
+        fun newInstance() =
             NavigationMenuFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+                arguments = Bundle()
             }
+    }
+
+    private fun startFragment(newInstance: Fragment) {
+        fragmentManager
+            ?.beginTransaction()
+            ?.replace(R.id.bodyFragment, newInstance)?.commit()
     }
 }

@@ -50,6 +50,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/se
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/sergey/.gradle/caches/transforms-3/0e4a8bd98187e5a9eb7a12e043c7c29a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.6.1] /home/sergey/.gradle/caches/transforms-3/a2b941ca6f918db80e4a6b57fd017c27/transformed/fragment-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/sergey/.gradle/caches/transforms-3/0d286bc78b27b9620cce152247e9e32a/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/sergey/.gradle/caches/transforms-3/69823883af3895b04a8c6c9636747bab/transformed/palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /home/sergey/.gradle/caches/transforms-3/fabb6551a769eb8da1c44c2bcba301b6/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sergey/.gradle/caches/transforms-3/b97d264ba7e2034321939ce828ee4146/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sergey/.gradle/caches/transforms-3/948d00e1809e6c0bca91a86c54c300f8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sergey/.gradle/caches/transforms-3/d1a0b0ea540b8a75bdd14200c53a1f64/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -426,6 +428,10 @@ MERGED from [androidx.fragment:fragment:1.6.1] /home/sergey/.gradle/caches/trans
 MERGED from [androidx.fragment:fragment:1.6.1] /home/sergey/.gradle/caches/transforms-3/a2b941ca6f918db80e4a6b57fd017c27/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/sergey/.gradle/caches/transforms-3/0d286bc78b27b9620cce152247e9e32a/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/sergey/.gradle/caches/transforms-3/0d286bc78b27b9620cce152247e9e32a/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/sergey/.gradle/caches/transforms-3/69823883af3895b04a8c6c9636747bab/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/sergey/.gradle/caches/transforms-3/69823883af3895b04a8c6c9636747bab/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/sergey/.gradle/caches/transforms-3/fabb6551a769eb8da1c44c2bcba301b6/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/sergey/.gradle/caches/transforms-3/fabb6551a769eb8da1c44c2bcba301b6/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sergey/.gradle/caches/transforms-3/b97d264ba7e2034321939ce828ee4146/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sergey/.gradle/caches/transforms-3/b97d264ba7e2034321939ce828ee4146/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sergey/.gradle/caches/transforms-3/948d00e1809e6c0bca91a86c54c300f8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44

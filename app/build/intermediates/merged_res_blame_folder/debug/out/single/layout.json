@@ -36,6 +36,10 @@
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_episodes.xml"
     },
     {
+        "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_new_profile.xml",
+        "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_new_profile.xml"
+    },
+    {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_register.xml",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_register.xml"
     },
@@ -60,6 +64,10 @@
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_episodes.xml"
     },
     {
+        "merged": "com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_new_profile.xml",
+        "source": "com.example.aniglory_app-main-54:/layout/fragment_new_profile.xml"
+    },
+    {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/list_item.xml",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/list_item.xml"
     },
@@ -78,10 +86,6 @@
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_search2.xml",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_search2.xml"
-    },
-    {
-        "merged": "com.example.aniglory_app-mergeDebugResources-51:/layout/activity_player_kodik.xml",
-        "source": "com.example.aniglory_app-main-54:/layout/activity_player_kodik.xml"
     },
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/category.xml",
@@ -158,6 +162,10 @@
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/player_selection.xml",
         "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/player_selection.xml"
+    },
+    {
+        "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_navigation_menu.xml",
+        "source": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_navigation_menu.xml"
     },
     {
         "merged": "/home/sergey/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/comment.xml",

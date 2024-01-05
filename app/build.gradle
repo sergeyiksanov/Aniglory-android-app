@@ -38,6 +38,8 @@ android {
 }
 
 dependencies {
+    //palette
+    implementation "androidx.palette:palette-ktx:1.0.0"
     //preferences_data
     implementation "androidx.datastore:datastore-preferences:1.0.0-alpha01"
     //adaptive

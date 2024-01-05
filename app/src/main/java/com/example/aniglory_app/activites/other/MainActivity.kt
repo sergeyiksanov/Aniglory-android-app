@@ -9,6 +9,7 @@ import com.example.aniglory_app.fragments.footer.MenuFragment
 import com.example.aniglory_app.fragments.header.SearchFragment
 import com.example.aniglory_app.fragments.body.TitlesFragment
 import com.example.aniglory_app.fragments.body.new_interface.HomeScreenFragment
+import com.example.aniglory_app.fragments.footer.new_interface.NavigationMenuFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             .replace(R.id.bodyFragment, HomeScreenFragment.newInstance()).commit()
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.footerFragment, MenuFragment.newInstance()).commit()
+            .replace(R.id.footerFragment, NavigationMenuFragment.newInstance()).commit()
     }
 
 }
