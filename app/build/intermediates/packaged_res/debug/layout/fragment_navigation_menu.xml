@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/new_card_background"
+    tools:context=".fragments.footer.new_interface.NavigationMenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:padding="8dp"
+        android:background="@color/new_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favorite_primary"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iBookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favorite"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</FrameLayout>
