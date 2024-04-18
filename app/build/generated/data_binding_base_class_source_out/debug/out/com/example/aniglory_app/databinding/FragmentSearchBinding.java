@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,19 +25,15 @@ public final class FragmentSearchBinding implements ViewBinding {
   public final CardView cardView5;
 
   @NonNull
-  public final ImageView imageView3;
-
-  @NonNull
   public final RecyclerView rcView;
 
   @NonNull
   public final SearchView searchView;
 
   private FragmentSearchBinding(@NonNull FrameLayout rootView, @NonNull CardView cardView5,
-      @NonNull ImageView imageView3, @NonNull RecyclerView rcView, @NonNull SearchView searchView) {
+      @NonNull RecyclerView rcView, @NonNull SearchView searchView) {
     this.rootView = rootView;
     this.cardView5 = cardView5;
-    this.imageView3 = imageView3;
     this.rcView = rcView;
     this.searchView = searchView;
   }
@@ -76,12 +71,6 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView3;
-      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
-        break missingId;
-      }
-
       id = R.id.rcView;
       RecyclerView rcView = ViewBindings.findChildViewById(rootView, id);
       if (rcView == null) {
@@ -94,8 +83,7 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSearchBinding((FrameLayout) rootView, cardView5, imageView3, rcView,
-          searchView);
+      return new FragmentSearchBinding((FrameLayout) rootView, cardView5, rcView, searchView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

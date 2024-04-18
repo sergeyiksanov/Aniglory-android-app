@@ -6,19 +6,19 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml
+8-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml
+9-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WAKE_LOCK" />
-11-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:5:5-68
-11-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:5:22-65
+11-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:5:5-68
+11-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:5:22-65
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:6:5-67
-12-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:6:22-64
+12-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:7:5-80
-13-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:7:22-77
+13-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:7:5-80
+13-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 14-->[com.google.firebase:firebase-auth:22.1.0] /home/sergey/.gradle/caches/transforms-3/590aad0ca7833770e6b048bd7714975f/transformed/firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
 14-->[com.google.firebase:firebase-auth:22.1.0] /home/sergey/.gradle/caches/transforms-3/590aad0ca7833770e6b048bd7714975f/transformed/firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
@@ -30,112 +30,112 @@
 16-->[com.google.android.gms:play-services-measurement:21.3.0] /home/sergey/.gradle/caches/transforms-3/1bf8ccc64d4dac5025319472f5d10dc8/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
 17
 18    <permission
-18-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 19        android:name="com.example.aniglory_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-19-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 20        android:protectionLevel="signature" />
-20-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 21
 22    <uses-permission android:name="com.example.aniglory_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-22-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-22-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 23
 24    <application
-24-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:9:5-56:19
+24-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:9:5-56:19
 25        android:allowBackup="true"
-25-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:10:9-35
+25-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:10:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.9.0] /home/sergey/.gradle/caches/transforms-3/9cf89a6888f1a4ebc33fefccbb55a06c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26-->[androidx.core:core:1.12.0] /home/sergey/.gradle/caches/transforms-3/88d450ee59674d395a2afff8e6b69544/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 27        android:dataExtractionRules="@xml/data_extraction_rules"
-27-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:11:9-65
+27-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:11:9-65
 28        android:debuggable="true"
 29        android:extractNativeLibs="false"
 30        android:fullBackupContent="@xml/backup_rules"
-30-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:12:9-54
+30-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:12:9-54
 31        android:icon="@mipmap/ic_launcher"
-31-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:13:9-43
+31-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:13:9-43
 32        android:label="@string/app_name"
-32-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:14:9-41
+32-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:14:9-41
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:15:9-54
+33-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:15:9-54
 34        android:supportsRtl="true"
-34-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:16:9-35
+34-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:16:9-35
 35        android:testOnly="true"
 36        android:theme="@style/Theme.Aniglory"
-36-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:17:9-46
+36-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:17:9-46
 37        android:usesCleartextTraffic="true" >
-37-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:18:9-44
+37-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:18:9-44
 38        <activity
-38-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:20:9-29:20
+38-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:20:9-29:20
 39            android:name="com.example.aniglory_app.activites.other.MainActivity"
-39-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:21:13-57
+39-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:21:13-57
 40            android:exported="true"
-40-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:22:13-36
+40-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:22:13-36
 41            android:windowSoftInputMode="adjustPan" >
-41-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:23:13-52
+41-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:23:13-52
 42            <intent-filter>
-42-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:24:13-28:29
+42-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:24:13-28:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:25:17-69
-43-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:25:25-66
+43-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:25:17-69
+43-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:25:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:27:17-77
-45-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:27:27-74
+45-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:27:17-77
+45-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:27:27-74
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:30:9-32:40
+48-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:30:9-32:40
 49            android:name="com.example.aniglory_app.activites.other.BookmarksActivity"
-49-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:31:13-62
+49-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:31:13-62
 50            android:exported="false" />
-50-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:32:13-37
+50-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:32:13-37
 51        <activity
-51-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:33:9-37:83
+51-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:33:9-37:83
 52            android:name="com.example.aniglory_app.activites.players.PlayerAnilibriaActivity"
-52-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:34:13-70
+52-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:34:13-70
 53            android:configChanges="orientation|screenSize|screenLayout"
-53-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:35:13-72
+53-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:35:13-72
 54            android:exported="false"
-54-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:36:13-37
+54-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:36:13-37
 55            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
-55-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:37:13-80
+55-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:37:13-80
 56        <activity
-56-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:38:9-40:40
+56-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:38:9-40:40
 57            android:name="com.example.aniglory_app.activites.other.RegisterActivity"
-57-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:39:13-61
+57-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:39:13-61
 58            android:exported="false" />
-58-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:40:13-37
+58-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:40:13-37
 59        <activity
-59-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:41:9-43:40
+59-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:41:9-43:40
 60            android:name="com.example.aniglory_app.activites.other.ProfileActivity"
-60-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:42:13-60
+60-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:42:13-60
 61            android:exported="false" />
-61-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:43:13-37
+61-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:43:13-37
 62        <activity
-62-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:44:9-46:62
+62-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:44:9-46:62
 63            android:name="com.example.aniglory_app.activites.players.PlayerKodikActivity"
-63-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:45:13-66
+63-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:45:13-66
 64            android:configChanges="orientation|screenSize" />
-64-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:46:13-59
+64-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:46:13-59
 65        <activity
-65-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:47:9-49:40
+65-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:47:9-49:40
 66            android:name="com.example.aniglory_app.activites.other.EpisodesActivity"
-66-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:48:13-61
+66-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:48:13-61
 67            android:exported="false" />
-67-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:49:13-37
+67-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:49:13-37
 68        <activity
-68-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:50:9-52:40
+68-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:50:9-52:40
 69            android:name="com.example.aniglory_app.activites.other.TitleActivity"
-69-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:51:13-58
+69-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:51:13-58
 70            android:exported="false" />
-70-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:52:13-37
+70-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:52:13-37
 71        <activity
-71-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:53:9-55:40
+71-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:53:9-55:40
 72            android:name="com.example.aniglory_app.activites.other.TitlesActivity"
-72-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:54:13-59
+72-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:54:13-59
 73            android:exported="false" />
-73-->/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/AndroidManifest.xml:55:13-37
+73-->/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/AndroidManifest.xml:55:13-37
 74        <activity
 74-->[com.google.android.gms:play-services-auth:20.1.0] /home/sergey/.gradle/caches/transforms-3/03205403bee98d335774463ec56cbb79/transformed/play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
 75            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"

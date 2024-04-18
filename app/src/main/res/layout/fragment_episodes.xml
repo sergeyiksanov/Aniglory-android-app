@@ -28,7 +28,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="16dp"
             android:text="Выберите эпизод:"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/new_text_primary"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/back"

@@ -4,24 +4,7 @@
             "outputFile": "com.example.aniglory_app-mergeDebugResources-50:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/res/values-night/colors.xml",
-                    "from": {
-                        "startLines": "20,21,4,5,18,16,9,19,11,14,12,13,3,6,7,22,2,8,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "798,839,142,187,702,618,373,753,418,571,467,518,100,237,284,881,55,333,660",
-                        "endColumns": "40,41,44,49,50,41,43,44,48,45,50,52,41,46,48,39,44,39,41",
-                        "endOffsets": "834,876,182,232,748,655,412,793,462,612,513,566,137,279,328,916,95,368,697"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,96,138,183,233,284,326,370,415,464,510,561,614,656,703,752,792,837,877",
-                        "endColumns": "40,41,44,49,50,41,43,44,48,45,50,52,41,46,48,39,44,39,41",
-                        "endOffsets": "91,133,178,228,279,321,365,410,459,505,556,609,651,698,747,787,832,872,914"
-                    }
-                },
-                {
-                    "source": "/home/sergey/.gradle/caches/transforms-3/5f05b2ff64b5efd3fe86087489b402e6/transformed/material-1.9.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/sergey/.gradle/caches/transforms-3/25e22f90552cf01cae41c222cfcace01/transformed/material-1.11.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,42 @@
                         "startOffsets": "1667,1742,1853,1942,2043,2150,2257,2356,2463,2566,2654,2778,2880,2982,3098,3200,3314,3442,3558,3680,3816,3936,4070,4190,4302,4517,4634,4758,4888,5010,5148,5282,5398",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1737,1848,1937,2038,2145,2252,2351,2458,2561,2649,2773,2875,2977,3093,3195,3309,3437,3553,3675,3811,3931,4065,4185,4297,4423,4629,4753,4883,5005,5143,5277,5393,5513"
+                    }
+                },
+                {
+                    "source": "/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "919",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1030"
+                    }
+                },
+                {
+                    "source": "/home/sergey/AndroidStudioProjects/Aniglory-android-app/app/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "20,21,4,5,18,16,9,19,11,14,12,13,3,6,7,22,2,8,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "798,839,142,187,702,618,373,753,418,571,467,518,100,237,284,881,55,333,660",
+                        "endColumns": "40,41,44,49,50,41,43,44,48,45,50,52,41,46,48,39,44,39,41",
+                        "endOffsets": "834,876,182,232,748,655,412,793,462,612,513,566,137,279,328,916,95,368,697"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,138,183,233,284,326,370,415,464,510,561,614,656,703,752,792,837,877",
+                        "endColumns": "40,41,44,49,50,41,43,44,48,45,50,52,41,46,48,39,44,39,41",
+                        "endOffsets": "91,133,178,228,279,321,365,410,459,505,556,609,651,698,747,787,832,872,914"
                     }
                 },
                 {
@@ -52,25 +71,6 @@
                         "startOffsets": "1035,1105,1189,1273,1369,1471,1573,4428",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "1100,1184,1268,1364,1466,1568,1662,4512"
-                    }
-                },
-                {
-                    "source": "/home/sergey/AndroidStudioProjects/Anigloryapp/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "315"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "919",
-                        "endLines": "24",
-                        "endColumns": "12",
-                        "endOffsets": "1030"
                     }
                 }
             ]

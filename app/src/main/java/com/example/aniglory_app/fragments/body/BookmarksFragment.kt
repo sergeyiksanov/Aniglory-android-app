@@ -3,6 +3,7 @@ package com.example.aniglory_app.fragments.body
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.provider.CalendarContract.Colors
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.TextView
+import androidx.annotation.ColorRes
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.aniglory_app.R
@@ -85,10 +87,12 @@ class BookmarksFragment : Fragment() {
             getData()
         }
         else {
-            fragmentManager
-                ?.beginTransaction()
-                ?.addToBackStack(null)
-                ?.replace(R.id.bodyFragment, ProfileFragment.newInstance())?.commit()
+//            fragmentManager
+//                ?.beginTransaction()
+//                ?.addToBackStack(null)
+//                ?.replace(R.id.bodyFragment, ProfileFragment.newInstance())?.commit()
+
+
         }
 
         binding.bWatching.setOnClickListener {
@@ -97,6 +101,12 @@ class BookmarksFragment : Fragment() {
             binding.bPlans.setBackgroundResource(background_default)
             binding.bPostponed.setBackgroundResource(background_default)
             binding.bAbandoned.setBackgroundResource(background_default)
+
+            binding.bWatching.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
 
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)
@@ -110,6 +120,12 @@ class BookmarksFragment : Fragment() {
             binding.bPostponed.setBackgroundResource(background_default)
             binding.bAbandoned.setBackgroundResource(background_default)
 
+            binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bWatched.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
+
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)
             current_bookmark = "watched"
@@ -121,6 +137,12 @@ class BookmarksFragment : Fragment() {
             binding.bPlans.setBackgroundResource(background_primary)
             binding.bPostponed.setBackgroundResource(background_default)
             binding.bAbandoned.setBackgroundResource(background_default)
+
+            binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPlans.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
 
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)
@@ -134,6 +156,12 @@ class BookmarksFragment : Fragment() {
             binding.bPostponed.setBackgroundResource(background_primary)
             binding.bAbandoned.setBackgroundResource(background_default)
 
+            binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
+
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)
             current_bookmark = "postponed"
@@ -145,6 +173,12 @@ class BookmarksFragment : Fragment() {
             binding.bPlans.setBackgroundResource(background_default)
             binding.bPostponed.setBackgroundResource(background_default)
             binding.bAbandoned.setBackgroundResource(background_primary)
+
+            binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_card_background))
 
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)

@@ -10,37 +10,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:padding="8dp"
-        android:background="@color/new_background"
-        android:orientation="horizontal">
+        android:background="@color/new_card_background"
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <ImageView
             android:id="@+id/iHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/favorite_primary"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/favorite_primary" />
 
         <ImageView
             android:id="@+id/iBookmark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/favorite"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/favorite" />
 
         <ImageView
             android:id="@+id/iSearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/search"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/search" />
 
         <ImageView
             android:id="@+id/iProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/profile"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/profile" />
 
     </LinearLayout>
 

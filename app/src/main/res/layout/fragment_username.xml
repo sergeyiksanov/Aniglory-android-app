@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/new_background"
     tools:context=".fragments.body.auth_register.UsernameFragment">
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        app:cardBackgroundColor="@color/background"
+        app:cardBackgroundColor="@color/new_background"
         app:cardCornerRadius="10dp"
         app:cardElevation="0dp">
 
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Введите имя"
-                android:textColor="@color/primary_text"
+                android:textColor="@color/new_text_primary"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -49,10 +49,10 @@
                 android:id="@+id/accept"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btn_full_primary"
+                android:background="@drawable/new_btn_full"
                 android:padding="16dp"
                 android:text="Подтвердить"
-                android:textColor="@color/text_black"
+                android:textColor="@color/btn_text"
                 android:textStyle="bold"
                 app:cornerRadius="10dp" />
         </LinearLayout>

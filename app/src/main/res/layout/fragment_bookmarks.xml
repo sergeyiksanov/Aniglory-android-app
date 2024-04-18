@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/new_background"
     tools:context=".fragments.body.BookmarksFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,9 +42,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:background="@drawable/btn_full_primary"
+                    android:background="@drawable/new_btn_full"
                     android:text="Смотрю"
-                    android:textColor="@color/primary_text" />
+                    android:textColor="@color/new_text_primary" />
 
                 <Button
                     android:id="@+id/bWatched"
@@ -53,7 +53,7 @@
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
                     android:text="Просмотрено"
-                    android:textColor="@color/primary_text" />
+                    android:textColor="@color/new_text_primary" />
 
                 <Button
                     android:id="@+id/bPlans"
@@ -62,7 +62,7 @@
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
                     android:text="В планах"
-                    android:textColor="@color/primary_text" />
+                    android:textColor="@color/new_text_primary" />
 
                 <Button
                     android:id="@+id/bPostponed"
@@ -71,7 +71,7 @@
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
                     android:text="Отложено"
-                    android:textColor="@color/primary_text" />
+                    android:textColor="@color/new_text_primary" />
 
                 <Button
                     android:id="@+id/bAbandoned"
@@ -81,7 +81,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/btn_full"
                     android:text="Брошено"
-                    android:textColor="@color/primary_text" />
+                    android:textColor="@color/new_text_primary" />
             </LinearLayout>
         </HorizontalScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>

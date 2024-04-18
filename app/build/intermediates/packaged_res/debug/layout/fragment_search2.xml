@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".fragments.body.SearchFragment" >
+    android:background="@color/new_background"
+    tools:context=".fragments.body.SearchFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Категории"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/new_text_primary"
             android:textSize="24sp"
             android:textStyle="bold" />
 

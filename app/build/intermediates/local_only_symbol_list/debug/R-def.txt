@@ -6,6 +6,7 @@ color background
 color background_card
 color background_night
 color black
+color btn_text
 color dominant_color
 color exception
 color item_night
@@ -166,7 +167,6 @@ id iSearch
 id iSettings
 id imageView
 id imageView2
-id imageView3
 id imageView4
 id kodik
 id linearLayout

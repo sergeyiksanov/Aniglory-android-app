@@ -38,6 +38,10 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
     //palette
     implementation "androidx.palette:palette-ktx:1.0.0"
     //preferences_data

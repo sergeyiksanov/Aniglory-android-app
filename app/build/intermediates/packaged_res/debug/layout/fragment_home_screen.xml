@@ -135,17 +135,17 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_8sdp"
             android:background="@drawable/new_btn_full"
-            android:paddingTop="@dimen/_4sdp"
-            android:paddingBottom="@dimen/_4sdp"
             android:drawableEnd="@drawable/__icon__play_"
+            android:drawablePadding="@dimen/_4sdp"
+            android:gravity=""
             android:paddingStart="@dimen/_8sdp"
+            android:paddingTop="@dimen/_4sdp"
             android:paddingEnd="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_4sdp"
             android:text="Продолжить просмотр"
             android:textAllCaps="false"
-            android:textColor="@color/new_text_primary"
-            android:textSize="@dimen/_8sdp"
-            android:drawablePadding="@dimen/_4sdp"
-            android:gravity=""/>
+            android:textColor="@color/btn_text"
+            android:textSize="@dimen/_8sdp" />
 
         <TextView
             android:layout_width="match_parent"

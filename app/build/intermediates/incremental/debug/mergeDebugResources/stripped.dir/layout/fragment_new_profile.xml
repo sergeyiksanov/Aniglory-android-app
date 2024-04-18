@@ -92,12 +92,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
-            android:text="Пожертвовать"
-            android:textColor="@color/new_text_primary"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="1dp"
             android:background="@drawable/btn_top"
-            android:layout_marginBottom="1dp"/>
+            android:text="Пожертвовать"
+            android:textColor="@color/btn_text" />
 
         <Button
             android:id="@+id/btnAbout"
@@ -105,10 +105,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="О ПРИЛОЖЕНИИ"
-            android:textColor="@color/new_text_primary"
+            android:layout_marginBottom="1dp"
             android:background="@drawable/btn_none"
-            android:layout_marginBottom="1dp"/>
+            android:text="О ПРИЛОЖЕНИИ"
+            android:textColor="@color/btn_text" />
 
         <Button
             android:id="@+id/btn_signInOut"
@@ -116,28 +116,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_bottom"
             android:text="Войти в аккаунт"
-            android:textColor="@color/new_text_primary"
-            android:background="@drawable/btn_bottom"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Статистика:"
-            android:textColor="@color/new_text_primary"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Раздел находится в разработке!"
-            android:textColor="@color/new_text_secondary"
-            android:textStyle="italic"
-            android:textSize="18sp"
-            android:layout_gravity="center_horizontal"/>
+            android:textColor="@color/btn_text" />
 
     </LinearLayout>
 
