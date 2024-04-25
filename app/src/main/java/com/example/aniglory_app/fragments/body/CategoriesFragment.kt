@@ -96,6 +96,8 @@ class CategoriesFragment : Fragment() {
                         "genres" -> {
                             url(Network.GENRES_KODIK)
                             parameter("genres_type", "shikimori")
+                            parameter("lgbt", false)
+                            parameter("minimal_age", "0-18")
                         }
                         "countries" -> {
                             url(Network.KODIK_COUNTRIES)

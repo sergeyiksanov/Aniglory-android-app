@@ -90,6 +90,8 @@ object Data {
 //                        parameter("after", (num_request * 9).toString())
 //                    }
 
+                    parameter("lgbt", false)
+                    parameter("minimal_age", "0-18")
                     for((key, value) in parameters) {
                         parameter(key, value)
                     }

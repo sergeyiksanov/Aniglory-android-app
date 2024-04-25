@@ -29,8 +29,21 @@ class TitlesAdapter(var data: MutableList<resultsModel> = mutableListOf(), val c
 //                }
                 nameTitle.text = title.title.toString()
                 titleID.text = title.id.toString()
-                otherData.text = "Год: ${title.year}, Эпизодов: ${title.episodes_count}".toString()
-                description.text = title.material_data?.description.toString()
+                var y = title.year
+                var e = title.episodes_count
+                var d = title.material_data?.description
+
+                if(title.year == null) {
+                    y = "Неизветсно"
+                }
+                if(title.episodes_count == null) {
+                    e = "Неизвестно"
+                }
+                if(title.material_data?.description == null) {
+                    d = "Неизвестно"
+                }
+                otherData.text = "Год: ${y}, Эпизодов: ${e}".toString()
+                description.text = d
                 root.setOnClickListener {
                     callbacks(it)
                 }

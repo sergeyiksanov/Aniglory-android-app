@@ -100,10 +100,6 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/screenshot_dialog.xml"
     },
     {
-        "merged": "com.example.aniglory_app-merged_res-52:/layout_fragment_content.xml.flat",
-        "source": "com.example.aniglory_app-main-54:/layout/fragment_content.xml"
-    },
-    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/drawable_final_bookmarks_primary.xml.flat",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/drawable/final_bookmarks_primary.xml"
     },
@@ -488,10 +484,6 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/drawable/final_profile.xml"
     },
     {
-        "merged": "com.example.aniglory_app-merged_res-52:/layout_fragment_new_profile.xml.flat",
-        "source": "com.example.aniglory_app-main-54:/layout/fragment_new_profile.xml"
-    },
-    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/layout_more_info_dialog.xml.flat",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/more_info_dialog.xml"
     },
@@ -510,6 +502,10 @@
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/drawable_final_search.xml.flat",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/drawable/final_search.xml"
+    },
+    {
+        "merged": "com.example.aniglory_app-merged_res-52:/layout_fragment_episodes.xml.flat",
+        "source": "com.example.aniglory_app-main-54:/layout/fragment_episodes.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-merged_res-52:/layout_activity_bookmarks.xml.flat",

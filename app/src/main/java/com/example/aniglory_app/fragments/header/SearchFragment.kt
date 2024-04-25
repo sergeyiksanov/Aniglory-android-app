@@ -14,6 +14,7 @@ import com.example.aniglory_app.R
 import com.example.aniglory_app.adapters.TitlesAdapter
 import com.example.aniglory_app.databinding.FragmentSearchBinding
 import com.example.aniglory_app.fragments.body.TitleFragment
+import com.example.aniglory_app.fragments.body.new_interface.NewTitleFragment
 import com.example.aniglory_app.fragments.data.Data
 import com.example.aniglory_app.models.kodik.TitlesModelKodik
 import com.example.aniglory_app.models.kodik.resultsModel
@@ -50,7 +51,7 @@ class SearchFragment : Fragment() {
         fragmentManager
             ?.beginTransaction()
             ?.addToBackStack(null)
-            ?.replace(R.id.bodyFragment, TitleFragment.newInstance())?.commit()
+            ?.replace(R.id.bodyFragment, NewTitleFragment.newInstance())?.commit()
     }
 
     override fun onCreateView(

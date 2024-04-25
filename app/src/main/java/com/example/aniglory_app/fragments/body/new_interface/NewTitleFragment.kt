@@ -74,6 +74,7 @@ class NewTitleFragment : Fragment() {
 
         auth = Firebase.auth
 
+        binding.backBtn.setOnClickListener { activity!!.onBackPressed() }
         getData(Data.code_title)
 
     }
@@ -308,7 +309,7 @@ class NewTitleFragment : Fragment() {
                                 docRef.update("watching", FieldValue.arrayRemove(code))
                                 binding.savedBookmarks.text = ""
                                 binding.savedBookmarks.visibility = View.GONE
-                                binding.bookmarks.setOnClickListener { addToBookmarks(Data.code_title) }
+                                binding.bookmarks.setOnClickListener { addToBookmarks(code) }
                             }
                         }
                     }
@@ -321,7 +322,7 @@ class NewTitleFragment : Fragment() {
                                 docRef.update("watched", FieldValue.arrayRemove(code))
                                 binding.savedBookmarks.text = ""
                                 binding.savedBookmarks.visibility = View.GONE
-                                binding.bookmarks.setOnClickListener { addToBookmarks(Data.code_title) }
+                                binding.bookmarks.setOnClickListener { addToBookmarks(code) }
                             }
                         }
                     }
@@ -334,7 +335,7 @@ class NewTitleFragment : Fragment() {
                                 docRef.update("plane", FieldValue.arrayRemove(code))
                                 binding.savedBookmarks.text = ""
                                 binding.savedBookmarks.visibility = View.GONE
-                                binding.bookmarks.setOnClickListener { addToBookmarks(Data.code_title) }
+                                binding.bookmarks.setOnClickListener { addToBookmarks(code) }
                             }
                         }
                     }
@@ -347,7 +348,7 @@ class NewTitleFragment : Fragment() {
                                 docRef.update("postponed", FieldValue.arrayRemove(code))
                                 binding.savedBookmarks.text = ""
                                 binding.savedBookmarks.visibility = View.GONE
-                                binding.bookmarks.setOnClickListener { addToBookmarks(Data.code_title) }
+                                binding.bookmarks.setOnClickListener { addToBookmarks(code) }
                             }
                         }
                     }
@@ -360,7 +361,7 @@ class NewTitleFragment : Fragment() {
                                 docRef.update("abandoned", FieldValue.arrayRemove(code))
                                 binding.savedBookmarks.text = ""
                                 binding.savedBookmarks.visibility = View.GONE
-                                binding.bookmarks.setOnClickListener { addToBookmarks(Data.code_title) }
+
                             }
                         }
                     }
@@ -393,6 +394,11 @@ class NewTitleFragment : Fragment() {
             val abandoned = dialog.findViewById<Button>(R.id.abandoned)
 
             watching.setOnClickListener {
+
+                CoroutineScope(Dispatchers.IO).launch {
+                    delBtn(id)
+                }
+
                 docRef.get().addOnSuccessListener {
                     if(it.exists()) {
                         docRef.update("watching", FieldValue.arrayUnion(id))
@@ -414,8 +420,6 @@ class NewTitleFragment : Fragment() {
                     }
                 }
 
-                delBtn(id)
-
                 dialog.dismiss()
             }
             watched.setOnClickListener {
@@ -424,6 +428,7 @@ class NewTitleFragment : Fragment() {
                         docRef.update("watched", FieldValue.arrayUnion(id))
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -433,21 +438,28 @@ class NewTitleFragment : Fragment() {
                         docRef.set(userData)
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
                             }
                     }
                 }
-                delBtn(id)
+
                 dialog.dismiss()
             }
             plane.setOnClickListener {
+
+                CoroutineScope(Dispatchers.IO).launch {
+                    delBtn(id)
+                }
+
                 docRef.get().addOnSuccessListener {
                     if(it.exists()) {
                         docRef.update("plane", FieldValue.arrayUnion(id))
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -457,6 +469,7 @@ class NewTitleFragment : Fragment() {
                         docRef.set(userData)
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -464,15 +477,20 @@ class NewTitleFragment : Fragment() {
                     }
                 }
 
-                delBtn(id)
                 dialog.dismiss()
             }
             postponed.setOnClickListener {
+
+                CoroutineScope(Dispatchers.IO).launch {
+                    delBtn(id)
+                }
+
                 docRef.get().addOnSuccessListener {
                     if(it.exists()) {
                         docRef.update("postponed", FieldValue.arrayUnion(id))
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -482,6 +500,7 @@ class NewTitleFragment : Fragment() {
                         docRef.set(userData)
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -489,15 +508,19 @@ class NewTitleFragment : Fragment() {
                     }
                 }
 
-                delBtn(id)
                 dialog.dismiss()
             }
             abandoned.setOnClickListener {
+                CoroutineScope(Dispatchers.IO).launch {
+                    delBtn(id)
+                }
+
                 docRef.get().addOnSuccessListener {
                     if(it.exists()) {
                         docRef.update("abandoned", FieldValue.arrayUnion(id))
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -507,6 +530,7 @@ class NewTitleFragment : Fragment() {
                         docRef.set(userData)
                             .addOnSuccessListener {
                                 Log.i("ADD BOOK", "success")
+                                delBtn(id)
                             }
                             .addOnFailureListener { exception ->
                                 Log.i("ADD BOOK", exception.toString())
@@ -514,7 +538,6 @@ class NewTitleFragment : Fragment() {
                     }
                 }
 
-                delBtn(id)
                 dialog.dismiss()
             }
 

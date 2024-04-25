@@ -1,95 +1,19 @@
 [
     {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_player_kodik.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_player_kodik.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_email.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_email.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_categories.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_categories.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_titles.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_titles.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_register.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_register.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_menu.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_menu.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/poster_dialog.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/poster_dialog.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_episodes.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_episodes.xml"
-    },
-    {
-        "merged": "com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_new_profile.xml",
-        "source": "com.example.aniglory_app-main-54:/layout/fragment_new_profile.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/list_item.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/list_item.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_titles.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_titles.xml"
-    },
-    {
-        "merged": "com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_content.xml",
-        "source": "com.example.aniglory_app-main-54:/layout/fragment_content.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_username.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_username.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_profile.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_profile.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/title_horizontal.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/title_horizontal.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_title.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_title.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/screenshot_dialog.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/screenshot_dialog.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/helpers_dialog.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/helpers_dialog.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_accept.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_accept.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_title.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_title.xml"
-    },
-    {
-        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/more_info_dialog.xml",
-        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/more_info_dialog.xml"
-    },
-    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_new_profile.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_new_profile.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_player_kodik.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_player_kodik.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/edit_user_name.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/edit_user_name.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_email.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_email.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_bookmarks.xml",
@@ -104,6 +28,14 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_new_title.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_categories.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_categories.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_titles.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_titles.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/bookmarks_selection.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/bookmarks_selection.xml"
     },
@@ -114,6 +46,18 @@
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_home_screen.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_home_screen.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/poster_dialog.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/poster_dialog.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_menu.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_register.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_register.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_profile.xml",
@@ -132,20 +76,52 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_bookmarks.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_episodes.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_episodes.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/list_item.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/list_item.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/category.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/category.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_titles.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_titles.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_content.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_content.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_username.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_username.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/comment.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/comment.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_profile.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/title_horizontal.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/title_horizontal.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/episode.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/episode.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_title.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_title.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/screenshot_dialog.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/screenshot_dialog.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_settings.xml",
@@ -156,12 +132,20 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_navigation_menu.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/helpers_dialog.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/helpers_dialog.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_main.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/activity_main.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_comments.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_comments.xml"
+    },
+    {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_accept.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_accept.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_episodes.xml",
@@ -172,12 +156,24 @@
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_search.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_title.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/fragment_title.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/login_selection.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/login_selection.xml"
     },
     {
+        "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/more_info_dialog.xml",
+        "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/more_info_dialog.xml"
+    },
+    {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/title.xml",
         "source": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-main-54:/layout/title.xml"
+    },
+    {
+        "merged": "com.example.aniglory_app-mergeDebugResources-51:/layout/fragment_episodes.xml",
+        "source": "com.example.aniglory_app-main-54:/layout/fragment_episodes.xml"
     },
     {
         "merged": "/home/al/.gradle/daemon/8.0/com.example.aniglory_app-mergeDebugResources-51:/layout/activity_player_anilibria.xml",

@@ -52,7 +52,7 @@
                 android:background="@drawable/new_btn_full"
                 android:padding="16dp"
                 android:text="Подтвердить"
-                android:textColor="@color/new_background"
+                android:textColor="@color/btn_text"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:cornerRadius="10dp" />

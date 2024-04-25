@@ -18,6 +18,7 @@ import com.example.aniglory_app.R
 import com.example.aniglory_app.activites.other.TitleActivity
 import com.example.aniglory_app.adapters.TitlesAdapter
 import com.example.aniglory_app.databinding.FragmentBookmarksBinding
+import com.example.aniglory_app.fragments.body.new_interface.NewTitleFragment
 import com.example.aniglory_app.fragments.data.Data
 import com.example.aniglory_app.models.anilibria.listModel
 import com.example.aniglory_app.models.kodik.TitlesModelKodik
@@ -224,7 +225,7 @@ class BookmarksFragment : Fragment() {
         fragmentManager
             ?.beginTransaction()
             ?.addToBackStack(null)
-            ?.replace(R.id.bodyFragment, TitleFragment.newInstance())?.commit()
+            ?.replace(R.id.bodyFragment, NewTitleFragment.newInstance())?.commit()
     }
 
     private fun getData() {
