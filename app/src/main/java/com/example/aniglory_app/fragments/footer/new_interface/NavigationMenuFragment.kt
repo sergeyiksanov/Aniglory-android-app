@@ -29,34 +29,34 @@ class NavigationMenuFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.iSearch.setOnClickListener {
-            binding.iSearch.setImageResource(R.drawable.search_primary)
-            binding.iBookmark.setImageResource(R.drawable.favorite)
-            binding.iProfile.setImageResource(R.drawable.profile)
-            binding.iHome.setImageResource(R.drawable.favorite)
+            binding.iSearch.setImageResource(R.drawable.final_search_primary)
+            binding.iBookmark.setImageResource(R.drawable.final_bookmarks)
+            binding.iProfile.setImageResource(R.drawable.final_profile)
+            binding.iHome.setImageResource(R.drawable.final_home)
 
             startFragment(SearchFragment.newInstance())
         }
         binding.iBookmark.setOnClickListener {
-            binding.iSearch.setImageResource(R.drawable.search)
-            binding.iBookmark.setImageResource(R.drawable.favorite_primary)
-            binding.iProfile.setImageResource(R.drawable.profile)
-            binding.iHome.setImageResource(R.drawable.favorite)
+            binding.iSearch.setImageResource(R.drawable.final_search)
+            binding.iBookmark.setImageResource(R.drawable.final_bookmarks_primary)
+            binding.iProfile.setImageResource(R.drawable.final_profile)
+            binding.iHome.setImageResource(R.drawable.final_home)
 
             startFragment(BookmarksFragment())
         }
         binding.iProfile.setOnClickListener {
-            binding.iSearch.setImageResource(R.drawable.search)
-            binding.iBookmark.setImageResource(R.drawable.favorite)
-            binding.iProfile.setImageResource(R.drawable.profile_primary)
-            binding.iHome.setImageResource(R.drawable.favorite)
+            binding.iSearch.setImageResource(R.drawable.final_search)
+            binding.iBookmark.setImageResource(R.drawable.final_bookmarks)
+            binding.iProfile.setImageResource(R.drawable.final_profile_primary)
+            binding.iHome.setImageResource(R.drawable.final_home)
 
             startFragment(NewProfileFragment())
         }
         binding.iHome.setOnClickListener {
-            binding.iSearch.setImageResource(R.drawable.search)
-            binding.iBookmark.setImageResource(R.drawable.favorite)
-            binding.iProfile.setImageResource(R.drawable.profile)
-            binding.iHome.setImageResource(R.drawable.favorite_primary)
+            binding.iSearch.setImageResource(R.drawable.final_search)
+            binding.iBookmark.setImageResource(R.drawable.final_bookmarks)
+            binding.iProfile.setImageResource(R.drawable.final_profile)
+            binding.iHome.setImageResource(R.drawable.final_home_primary)
 
             startFragment(TitlesFragment.newInstance())
         }

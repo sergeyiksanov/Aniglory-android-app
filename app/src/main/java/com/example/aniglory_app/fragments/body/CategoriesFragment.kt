@@ -82,7 +82,7 @@ class CategoriesFragment : Fragment() {
         init()
         getData()
     }
-
+//ПИМЬКА
     private fun init() = with(binding) {
         rcView.layoutManager = layoutManager
         rcView.adapter = adapter

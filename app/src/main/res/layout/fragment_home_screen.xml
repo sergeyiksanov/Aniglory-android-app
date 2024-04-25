@@ -32,6 +32,7 @@
             android:layout_marginTop="@dimen/_20sdp"/>
 
         <TextView
+            android:id="@+id/youWatchTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Вы смотрели:"
@@ -41,6 +42,7 @@
             android:layout_marginTop="@dimen/_16sdp"/>
 
         <LinearLayout
+            android:id="@+id/youWatchBlock"
             android:layout_marginTop="@dimen/_8sdp"
             android:layout_marginStart="@dimen/_50sdp"
             android:layout_marginEnd="@dimen/_50sdp"
@@ -136,7 +138,7 @@
             android:background="@drawable/new_btn_full"
             android:drawableEnd="@drawable/__icon__play_"
             android:drawablePadding="@dimen/_4sdp"
-            android:gravity=""
+            android:gravity="center_vertical"
             android:paddingStart="@dimen/_8sdp"
             android:paddingTop="@dimen/_4sdp"
             android:paddingEnd="@dimen/_8sdp"

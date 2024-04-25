@@ -4,7 +4,7 @@
             "outputFile": "com.example.aniglory_app.test.app-mergeDebugAndroidTestResources-3:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/home/sergey/.gradle/caches/transforms-3/2f6fc1fde3f2e51d3774d6affe3f858e/transformed/core-1.5.0/res/values-v28/values.xml",
+                    "source": "/home/al/.gradle/caches/transforms-3/2f6fc1fde3f2e51d3774d6affe3f858e/transformed/core-1.5.0/res/values-v28/values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

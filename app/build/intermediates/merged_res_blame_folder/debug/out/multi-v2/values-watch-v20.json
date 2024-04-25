@@ -4,7 +4,7 @@
             "outputFile": "com.example.aniglory_app-mergeDebugResources-50:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/sergey/.gradle/caches/transforms-3/84b3c2787a7215259fd039d023707f4b/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/al/.gradle/caches/transforms-3/84b3c2787a7215259fd039d023707f4b/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/sergey/.gradle/caches/transforms-3/03205403bee98d335774463ec56cbb79/transformed/play-services-auth-20.1.0/res/values-watch-v20/values.xml",
+                    "source": "/home/al/.gradle/caches/transforms-3/03205403bee98d335774463ec56cbb79/transformed/play-services-auth-20.1.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

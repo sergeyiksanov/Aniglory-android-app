@@ -1,6 +1,6 @@
-com.example.aniglory_app.test.app-core-1.5.0-0 /home/sergey/.gradle/caches/transforms-3/2f6fc1fde3f2e51d3774d6affe3f858e/transformed/core-1.5.0/res
-com.example.aniglory_app.test.app-annotation-experimental-1.3.0-1 /home/sergey/.gradle/caches/transforms-3/70c0de23bf38faf1383c7e16ad2f12e8/transformed/annotation-experimental-1.3.0/res
-com.example.aniglory_app.test.app-androidTest-2 /home/sergey/AndroidStudioProjects/Anigloryapp/app/build/generated/res/resValues/androidTest/debug
-com.example.aniglory_app.test.app-mergeDebugAndroidTestResources-3 /home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.aniglory_app.test.app-mergeDebugAndroidTestResources-4 /home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.aniglory_app.test.app-merged_res-5 /home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/merged_res/debugAndroidTest
+com.example.aniglory_app.test.app-core-1.5.0-0 /home/al/.gradle/caches/transforms-3/2f6fc1fde3f2e51d3774d6affe3f858e/transformed/core-1.5.0/res
+com.example.aniglory_app.test.app-annotation-experimental-1.3.0-1 /home/al/.gradle/caches/transforms-3/70c0de23bf38faf1383c7e16ad2f12e8/transformed/annotation-experimental-1.3.0/res
+com.example.aniglory_app.test.app-androidTest-2 /home/al/StudioProjects/Aniglory-android-app/app/build/generated/res/resValues/androidTest/debug
+com.example.aniglory_app.test.app-mergeDebugAndroidTestResources-3 /home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.aniglory_app.test.app-mergeDebugAndroidTestResources-4 /home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.aniglory_app.test.app-merged_res-5 /home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/merged_res/debugAndroidTest

@@ -89,6 +89,12 @@ class HomeScreenFragment : Fragment() {
             binding.nextBtn.setOnClickListener {
                 startPlayerKodik(title.url, title.start_time)
             }
+        } else {
+            fragmentManager
+                ?.beginTransaction()
+                ?.addToBackStack(null)
+                ?.replace(R.id.bodyFragment, TitlesFragment.newInstance())
+                ?.commit()
         }
     }
 

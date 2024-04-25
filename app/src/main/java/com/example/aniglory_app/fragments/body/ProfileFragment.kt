@@ -6,6 +6,8 @@ import android.content.ContentValues.TAG
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
@@ -14,6 +16,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.Window
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
@@ -197,9 +200,11 @@ class ProfileFragment : Fragment() {
     }
 
     private fun showCustomDialog(type : Int) {
+
         when(type) {
             0 -> {
                 dialog.setContentView(R.layout.login_selection)
+                dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
                 val bLogin: Button = dialog.findViewById(R.id.bLogin)
                 val bRegister: Button = dialog.findViewById(R.id.bRegister)
@@ -218,6 +223,7 @@ class ProfileFragment : Fragment() {
             }
             1 -> {
                 dialog.setContentView(R.layout.edit_user_name)
+                dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
                 val edUn: EditText = dialog.findViewById(R.id.editUserName)
                 val accept: Button = dialog.findViewById(R.id.accept)
@@ -232,6 +238,7 @@ class ProfileFragment : Fragment() {
             }
             2 -> {
                 dialog.setContentView(R.layout.helpers_dialog)
+                dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
                 val tg: Button = dialog.findViewById(R.id.tg)
 
@@ -242,7 +249,7 @@ class ProfileFragment : Fragment() {
                 }
             }
         }
-
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.show();
     }
 

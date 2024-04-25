@@ -38,13 +38,15 @@
                 android:scrollbars="none">
 
                 <Button
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:id="@+id/bWatching"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/new_btn_full"
                     android:text="Смотрю"
-                    android:textColor="@color/new_text_primary" />
+                    android:textColor="@color/btn_text" />
 
                 <Button
                     android:id="@+id/bWatched"
@@ -52,6 +54,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:text="Просмотрено"
                     android:textColor="@color/new_text_primary" />
 
@@ -62,6 +66,8 @@
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
                     android:text="В планах"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:textColor="@color/new_text_primary" />
 
                 <Button
@@ -71,6 +77,8 @@
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/btn_full"
                     android:text="Отложено"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:textColor="@color/new_text_primary" />
 
                 <Button
@@ -81,6 +89,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/btn_full"
                     android:text="Брошено"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:textColor="@color/new_text_primary" />
             </LinearLayout>
         </HorizontalScrollView>

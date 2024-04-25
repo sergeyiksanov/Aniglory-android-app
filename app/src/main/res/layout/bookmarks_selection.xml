@@ -4,7 +4,7 @@
     android:layout_width="305dp"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    app:cardBackgroundColor="@color/background"
+    app:cardBackgroundColor="@color/new_background"
     app:cardCornerRadius="10dp"
     app:cardElevation="0dp">
 
@@ -22,7 +22,7 @@
             android:layout_marginEnd="8dp"
             android:gravity="center"
             android:text="Добавить в:"
-            android:textColor="@color/primary_text"
+            android:textColor="@color/new_text_primary"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
             android:layout_marginEnd="8dp"
             android:background="@drawable/btn_top"
             android:text="Смотрю"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/btn_text"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -44,11 +44,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="1dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/btn_none"
             android:text="Просмотренно"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/btn_text"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -57,11 +57,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="1dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/btn_none"
             android:text="В планах"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/btn_text"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -70,11 +70,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="1dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/btn_none"
             android:text="Отложено"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/btn_text"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -83,12 +83,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="1dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/btn_bottom"
             android:text="Брошено"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/btn_text"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>

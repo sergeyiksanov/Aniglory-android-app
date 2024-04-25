@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,7 +24,7 @@ public final class FragmentHomeScreenBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final TextView btnSkip;
+  public final Button btnSkip;
 
   @NonNull
   public final TextView episode;
@@ -46,10 +47,17 @@ public final class FragmentHomeScreenBinding implements ViewBinding {
   @NonNull
   public final TextView titleTxt;
 
-  private FragmentHomeScreenBinding(@NonNull FrameLayout rootView, @NonNull TextView btnSkip,
+  @NonNull
+  public final LinearLayout youWatchBlock;
+
+  @NonNull
+  public final TextView youWatchTxt;
+
+  private FragmentHomeScreenBinding(@NonNull FrameLayout rootView, @NonNull Button btnSkip,
       @NonNull TextView episode, @NonNull TextView helloText, @NonNull Button nextBtn,
       @NonNull ProgressBar progressBar, @NonNull TextView tProgress, @NonNull ImageView titleImg,
-      @NonNull TextView titleTxt) {
+      @NonNull TextView titleTxt, @NonNull LinearLayout youWatchBlock,
+      @NonNull TextView youWatchTxt) {
     this.rootView = rootView;
     this.btnSkip = btnSkip;
     this.episode = episode;
@@ -59,6 +67,8 @@ public final class FragmentHomeScreenBinding implements ViewBinding {
     this.tProgress = tProgress;
     this.titleImg = titleImg;
     this.titleTxt = titleTxt;
+    this.youWatchBlock = youWatchBlock;
+    this.youWatchTxt = youWatchTxt;
   }
 
   @Override
@@ -89,7 +99,7 @@ public final class FragmentHomeScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_skip;
-      TextView btnSkip = ViewBindings.findChildViewById(rootView, id);
+      Button btnSkip = ViewBindings.findChildViewById(rootView, id);
       if (btnSkip == null) {
         break missingId;
       }
@@ -136,8 +146,20 @@ public final class FragmentHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.youWatchBlock;
+      LinearLayout youWatchBlock = ViewBindings.findChildViewById(rootView, id);
+      if (youWatchBlock == null) {
+        break missingId;
+      }
+
+      id = R.id.youWatchTxt;
+      TextView youWatchTxt = ViewBindings.findChildViewById(rootView, id);
+      if (youWatchTxt == null) {
+        break missingId;
+      }
+
       return new FragmentHomeScreenBinding((FrameLayout) rootView, btnSkip, episode, helloText,
-          nextBtn, progressBar, tProgress, titleImg, titleTxt);
+          nextBtn, progressBar, tProgress, titleImg, titleTxt, youWatchBlock, youWatchTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

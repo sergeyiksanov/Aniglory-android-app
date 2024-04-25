@@ -17,30 +17,30 @@
         <ImageView
             android:id="@+id/iHome"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/favorite_primary" />
+            android:src="@drawable/final_home_primary" />
 
         <ImageView
             android:id="@+id/iBookmark"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/favorite" />
+            android:src="@drawable/final_bookmarks" />
 
         <ImageView
             android:id="@+id/iSearch"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/search" />
+            android:src="@drawable/final_search" />
 
         <ImageView
             android:id="@+id/iProfile"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_weight="1"
-            android:src="@drawable/profile" />
+            android:src="@drawable/final_profile" />
 
     </LinearLayout>
 

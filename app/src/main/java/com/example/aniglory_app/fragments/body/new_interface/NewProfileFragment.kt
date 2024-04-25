@@ -6,12 +6,14 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.LayerDrawable
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -106,6 +108,8 @@ class NewProfileFragment : Fragment() {
         activity?.findViewById<FrameLayout>(R.id.headerFragment)!!.visibility = View.GONE
         activity?.findViewById<FrameLayout>(R.id.footerFragment)!!.visibility = View.VISIBLE
 
+
+
         binding.btnDonate.setOnClickListener { Data.fun_is_development(requireActivity()) }
         binding.btnAbout.setOnClickListener { showCustomDialog(2) }
 //        binding.btn.setOnClickListener { Data.fun_is_development(requireActivity()) }
@@ -131,11 +135,12 @@ class NewProfileFragment : Fragment() {
                 }
             }
             catch (e: ApiException) {
-
+                Log.i("AUTH ERR", e.toString())
             }
         }
 
         dialog = Dialog(requireActivity())
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
         updateData()
 
@@ -143,7 +148,11 @@ class NewProfileFragment : Fragment() {
 
     private fun updateData() {
         if(checkAuthState()) {
-            binding.userAvatar.load(auth.currentUser!!.photoUrl)
+            if (auth.currentUser!!.photoUrl != null) {
+                binding.userAvatar.load(auth.currentUser!!.photoUrl)
+            } else {
+                binding.userAvatar.load(R.drawable.final_default_avatar)
+            }
 //            binding.avatarBackground.load(auth.currentUser!!.photoUrl)
 //            binding.avatar.visibility = View.VISIBLE
             binding.userName.text = auth.currentUser!!.displayName
@@ -165,7 +174,7 @@ class NewProfileFragment : Fragment() {
 //            }
         }
         else {
-            binding.userAvatar.load(R.drawable.profile_new)
+            binding.userAvatar.load(R.drawable.final_default_avatar)
 //            binding.avatarBackground.load(R.drawable.profile_new)
             binding.userName.text = "Вы не вошли в аккаунт"
             binding.btnSignInOut.text = "Войти в аккаунт"
@@ -187,13 +196,13 @@ class NewProfileFragment : Fragment() {
                 0 -> {
                     photoUri = resourseUri
 //                    R.color.dominant_color = vibrantColor!!
-                    val colors: IntArray = intArrayOf(vibrantColor!!, Color.parseColor("#00000000"))
-                    val gradientDrawable = GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, colors)
-                    gradientDrawable.shape = GradientDrawable.RECTANGLE
-                    val layers: Array<Drawable> = arrayOf(gradientDrawable)
-                    val layerDrawable = LayerDrawable(layers)
+//                    val colors: IntArray = intArrayOf(vibrantColor!!, Color.parseColor("#00000000"))
+//                    val gradientDrawable = GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, colors)
+//                    gradientDrawable.shape = GradientDrawable.RECTANGLE
+//                    val layers: Array<Drawable> = arrayOf(gradientDrawable)
+//                    val layerDrawable = LayerDrawable(layers)
 
-                    binding.shadow.background = layerDrawable
+//                    binding.shadow.background = layerDrawable
                 }
                 1 -> {
                     displayName = resourseString

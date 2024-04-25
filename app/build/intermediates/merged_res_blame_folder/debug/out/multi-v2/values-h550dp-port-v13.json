@@ -4,7 +4,7 @@
             "outputFile": "com.example.aniglory_app-mergeDebugResources-50:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/sergey/.gradle/caches/transforms-3/25e22f90552cf01cae41c222cfcace01/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "/home/al/.gradle/caches/transforms-3/25e22f90552cf01cae41c222cfcace01/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

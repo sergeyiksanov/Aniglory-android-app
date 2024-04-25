@@ -6,12 +6,15 @@
     <color name="background_card">#303033</color>
     <color name="background_night">#1C1B1E</color>
     <color name="black">#FF000000</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="dominant_color">#3559E0</color>
     <color name="exception">#C80000</color>
     <color name="item_night">#353537</color>
     <color name="new_background">#212121</color>
+    <color name="new_card_background">#3A3A3A</color>
     <color name="new_primary">#3559E0</color>
     <color name="new_text_primary">#FFFFFF</color>
-    <color name="new_text_secondary">#A7A7A7</color>
+    <color name="new_text_secondary">#C0BFBF</color>
     <color name="primary">#0582ca</color>
     <color name="primary_text">#E1E3E5</color>
     <color name="secondary_text">#AEAEB2</color>

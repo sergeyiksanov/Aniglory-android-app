@@ -53,7 +53,7 @@ object Data {
 
     var code_title: String = ""
 
-    lateinit var player_type: String
+    var player_type: String = "kodik"
 
 //    var count_episodes by Delegates.notNull<Int>()
     lateinit var episodesDataKodik: HashMap<String, String>

@@ -52,7 +52,7 @@ class BookmarksFragment : Fragment() {
 
     lateinit var auth: FirebaseAuth
 
-    val background_primary = R.drawable.btn_full_primary
+    val background_primary = R.drawable.new_btn_full
     val background_default = R.drawable.btn_full
 
     private val adapter = TitlesAdapter() {
@@ -102,7 +102,7 @@ class BookmarksFragment : Fragment() {
             binding.bPostponed.setBackgroundResource(background_default)
             binding.bAbandoned.setBackgroundResource(background_default)
 
-            binding.bWatching.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bWatching.setTextColor(resources.getColor(R.color.btn_text))
             binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
@@ -121,7 +121,7 @@ class BookmarksFragment : Fragment() {
             binding.bAbandoned.setBackgroundResource(background_default)
 
             binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
-            binding.bWatched.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bWatched.setTextColor(resources.getColor(R.color.btn_text))
             binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
@@ -140,7 +140,7 @@ class BookmarksFragment : Fragment() {
 
             binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
-            binding.bPlans.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bPlans.setTextColor(resources.getColor(R.color.btn_text))
             binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
 
@@ -159,7 +159,7 @@ class BookmarksFragment : Fragment() {
             binding.bWatching.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
-            binding.bPostponed.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bPostponed.setTextColor(resources.getColor(R.color.btn_text))
             binding.bAbandoned.setTextColor(resources.getColor(R.color.new_text_primary))
 
             var data: MutableList<resultsModel> = mutableListOf()
@@ -178,7 +178,7 @@ class BookmarksFragment : Fragment() {
             binding.bWatched.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPlans.setTextColor(resources.getColor(R.color.new_text_primary))
             binding.bPostponed.setTextColor(resources.getColor(R.color.new_text_primary))
-            binding.bAbandoned.setTextColor(resources.getColor(R.color.new_card_background))
+            binding.bAbandoned.setTextColor(resources.getColor(R.color.btn_text))
 
             var data: MutableList<resultsModel> = mutableListOf()
             adapter.createNewAdapter(data)
@@ -232,16 +232,14 @@ class BookmarksFragment : Fragment() {
 
         docRef.get()
             .addOnCompleteListener { document ->
-                if(document != null) {
-                    if(document.result.data!![current_bookmark] != null) {
-                        val id_list = document.result.data!![current_bookmark] as List<String>
-                        for(it1 in id_list) {
-                            baseTitles(it1)
-                            Log.i("NETWORK_TITLE", it1)
-                        }
+                if(document != null && document.result != null && document.result.data != null && document.result.data!![current_bookmark] != null) {
+                    val id_list = document.result.data!![current_bookmark] as List<String>
+                    for(it1 in id_list) {
+                        baseTitles(it1)
+                        Log.i("NETWORK_TITLE", it1)
                     }
-                    Log.i("NETWORK_TITLE", document.result.toString())
                 }
+                Log.i("NETWORK_TITLE", document.result.toString())
             }
     }
 

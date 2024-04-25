@@ -1,7 +1,7 @@
-#Wed Aug 23 13:28:07 EET 2023
-base.0=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
-base.1=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.2=/home/sergey/AndroidStudioProjects/Anigloryapp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/11/classes.dex
+#Mon Apr 22 17:53:48 UTC 2024
+base.0=/home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+base.1=/home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.2=/home/al/StudioProjects/Aniglory-android-app/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/11/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

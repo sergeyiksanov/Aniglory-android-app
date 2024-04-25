@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/new_background"
+    tools:context=".fragments.body.new_interface.NewTitleFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/backBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_arrow_back_24"
+                    android:background="@color/new_background" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/savedBookmarks"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="СМОТРЕТЬ ПОЗЖЕ"
+                    android:textColor="@color/new_text_primary"
+                    android:textStyle="bold"
+                    android:gravity="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/posterImg"
+                            android:layout_width="165dp"
+                            android:layout_height="235dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/genres"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/mainGenre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Genre"
+                            android:background="@drawable/hash_tag"
+                            android:padding="4dp"
+                            android:textColor="@color/new_text_primary"
+                            android:layout_marginEnd="4dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="..."
+                            android:background="@drawable/hash_tag"
+                            android:padding="4dp"
+                            android:textColor="@color/new_text_primary"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/titleTXt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Title"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:ellipsize="end"
+                            android:layout_marginBottom="2dp"/>
+
+                        <TextView
+                            android:id="@+id/titleOtherTXt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Title other"
+                            android:textSize="14sp"
+                            android:ellipsize="end"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:id="@+id/cntEpisodes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Серий: 24"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:id="@+id/episode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_secondary"
+                            android:text="~ 24 мин"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:id="@+id/year"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Год: 2023"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:id="@+id/status"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Выпускается"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Сериал"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                        <TextView
+                            android:id="@+id/studio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="@color/new_text_primary"
+                            android:text="Студия: MAPPA"
+                            android:textSize="14sp"
+                            android:ellipsize="end"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/watch"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/new_btn_full"
+                            android:text="Смотреть"
+                            android:textAllCaps="false"
+                            android:textColor="@color/btn_text"
+                            android:layout_marginTop="4dp"/>
+
+                        <ImageButton
+                            android:id="@+id/bookmarks"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/new_btn_full"
+                            android:layout_marginStart="4dp"
+                            android:src="@drawable/final_bookmarks_for_button"/>
+
+                        <ImageButton
+                            android:visibility="gone"
+                            android:id="@+id/deleteFromBookmarks"
+                            android:layout_marginTop="4dp"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@drawable/new_btn_full"
+                            android:layout_marginStart="4dp"
+                            android:src="@drawable/bookmarks_new"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                android:textColor="@color/new_text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/new_text_primary"
+                android:maxLines="8"
+                android:ellipsize="end"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/new_text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Кадры"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/screen1"
+                            android:layout_width="160dp"
+                            android:layout_height="90dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginEnd="8dp">
+
+                        <ImageView
+                            android:id="@+id/screen2"
+                            android:layout_width="160dp"
+                            android:layout_height="90dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/screen3"
+                            android:layout_width="160dp"
+                            android:layout_height="90dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/screen4"
+                            android:layout_width="160dp"
+                            android:layout_height="90dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/screen5"
+                            android:layout_width="160dp"
+                            android:layout_height="90dp"
+                            android:src="@mipmap/ic_launcher"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Больше информации"
+                android:textColor="@color/new_text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Актеры: "
+                    android:textColor="@color/new_text_secondary"/>
+
+                <TextView
+                    android:id="@+id/actors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="actors"
+                    android:textColor="@color/new_text_primary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Директоры: "
+                    android:textColor="@color/new_text_secondary"/>
+
+                <TextView
+                    android:id="@+id/directors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="directors"
+                    android:textColor="@color/new_text_primary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Продюссоры: "
+                    android:textColor="@color/new_text_secondary"/>
+
+                <TextView
+                    android:id="@+id/producers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="producers"
+                    android:textColor="@color/new_text_primary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Писатели: "
+                    android:textColor="@color/new_text_secondary"/>
+
+                <TextView
+                    android:id="@+id/writs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="none"
+                    android:textColor="@color/new_text_primary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Композиторы: "
+                    android:textColor="@color/new_text_secondary"/>
+
+                <TextView
+                    android:id="@+id/compositors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="compositors"
+                    android:textColor="@color/new_text_primary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

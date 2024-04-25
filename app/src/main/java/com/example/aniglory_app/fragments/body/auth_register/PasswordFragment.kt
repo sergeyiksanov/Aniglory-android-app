@@ -11,6 +11,7 @@ import com.example.aniglory_app.R
 import com.example.aniglory_app.databinding.FragmentPasswordBinding
 import com.example.aniglory_app.fragments.body.DescriptionFragment
 import com.example.aniglory_app.fragments.body.ProfileFragment
+import com.example.aniglory_app.fragments.body.new_interface.NewProfileFragment
 import com.example.aniglory_app.fragments.data.Data
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -40,7 +41,7 @@ class PasswordFragment : Fragment() {
                 if(Data.type_login) {
                     auth.signInWithEmailAndPassword(Data.email, binding.etPassword.text.toString()).addOnCompleteListener(requireActivity()) {
                         if(it.isSuccessful) {
-                            startFragment(ProfileFragment.newInstance())
+                            startFragment(NewProfileFragment.newInstance())
                         }
                         else {
                             binding.reload.visibility = View.VISIBLE
@@ -62,7 +63,7 @@ class PasswordFragment : Fragment() {
 
                             auth.currentUser!!.updateProfile(usernameUpd)
 
-                            startFragment(ProfileFragment.newInstance())
+                            startFragment(NewProfileFragment.newInstance())
                         }
                         else {
                             binding.reload.visibility = View.VISIBLE

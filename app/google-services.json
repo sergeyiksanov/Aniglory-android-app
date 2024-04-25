@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "951767503502-dn0k31btmfupeo5k2uq9mqp5mjdb1802.apps.googleusercontent.com",
+          "client_id": "951767503502-ihv4ohvg7vn8e11ui6fegrbob1056per.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.aniglory_app",
-            "certificate_hash": "f9f0d66dd6132e1d0d9990aadf7cd75f3969c927"
+            "certificate_hash": "0a0276b1d5804f0fe68541f8b5703fc2f9239f95"
           }
         },
         {

@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.aniglory_app.R
 import com.example.aniglory_app.adapters.TitlesAdapter
 import com.example.aniglory_app.databinding.FragmentTitlesBinding
+import com.example.aniglory_app.fragments.body.new_interface.NewTitleFragment
 import com.example.aniglory_app.fragments.data.Data
 import com.example.aniglory_app.values.Network
 
@@ -98,6 +99,6 @@ class TitlesFragment : Fragment() {
         fragmentManager
             ?.beginTransaction()
             ?.addToBackStack(null)
-            ?.replace(R.id.bodyFragment, TitleFragment.newInstance())?.commit()
+            ?.replace(R.id.bodyFragment, NewTitleFragment.newInstance())?.commit()
     }
 }

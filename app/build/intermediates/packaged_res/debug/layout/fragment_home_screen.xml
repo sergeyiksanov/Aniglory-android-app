@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.body.new_interface.HomeScreen">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,6 +32,7 @@
             android:layout_marginTop="@dimen/_20sdp"/>
 
         <TextView
+            android:id="@+id/youWatchTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Вы смотрели:"
@@ -42,6 +42,7 @@
             android:layout_marginTop="@dimen/_16sdp"/>
 
         <LinearLayout
+            android:id="@+id/youWatchBlock"
             android:layout_marginTop="@dimen/_8sdp"
             android:layout_marginStart="@dimen/_50sdp"
             android:layout_marginEnd="@dimen/_50sdp"
@@ -131,13 +132,13 @@
         <Button
             android:id="@+id/next_btn"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/_20sdp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_8sdp"
             android:background="@drawable/new_btn_full"
             android:drawableEnd="@drawable/__icon__play_"
             android:drawablePadding="@dimen/_4sdp"
-            android:gravity=""
+            android:gravity="center_vertical"
             android:paddingStart="@dimen/_8sdp"
             android:paddingTop="@dimen/_4sdp"
             android:paddingEnd="@dimen/_8sdp"
@@ -147,185 +148,17 @@
             android:textColor="@color/btn_text"
             android:textSize="@dimen/_8sdp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Рекомендации:"
-            android:textColor="@color/new_text_primary"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="@dimen/_16sdp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="@dimen/_8sdp">
-
-            <LinearLayout
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Название"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_10sdp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="2 серии"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_8sdp" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    app:cardCornerRadius="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_60sdp"
-                        android:layout_height="@dimen/_84sdp"
-                        android:scaleType="centerCrop"
-                        android:src="@mipmap/ic_launcher" />
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Файтинг"
-                    android:textColor="@color/new_text_secondary"
-                    android:textSize="@dimen/_8sdp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:background="@drawable/hash_tag"
-                    android:padding="@dimen/_4sdp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Название"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_10sdp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="2 серии"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_8sdp" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    app:cardCornerRadius="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_60sdp"
-                        android:layout_height="@dimen/_84sdp"
-                        android:scaleType="centerCrop"
-                        android:src="@mipmap/ic_launcher" />
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Файтинг"
-                    android:textColor="@color/new_text_secondary"
-                    android:textSize="@dimen/_8sdp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:background="@drawable/hash_tag"
-                    android:padding="@dimen/_4sdp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Название"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_10sdp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="2 серии"
-                    android:textColor="@color/new_text_primary"
-                    android:textSize="@dimen/_8sdp" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    app:cardCornerRadius="@dimen/_5sdp">
-
-                    <ImageView
-                        android:layout_width="@dimen/_60sdp"
-                        android:layout_height="@dimen/_84sdp"
-                        android:scaleType="centerCrop"
-                        android:src="@mipmap/ic_launcher" />
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Файтинг"
-                    android:textColor="@color/new_text_secondary"
-                    android:textSize="@dimen/_8sdp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:background="@drawable/hash_tag"
-                    android:padding="@dimen/_4sdp"/>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/btn_skip"
+        <Button
+            android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Пропустить >"
+            android:id="@+id/btn_skip"
+            android:text="Пропустить"
+            android:textAllCaps="false"
             android:textColor="@color/new_text_primary"
-            android:textSize="@dimen/_10sdp"
-            android:textStyle="bold"
-            android:layout_marginTop="@dimen/_4sdp"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_full"/>
 
     </LinearLayout>
 
