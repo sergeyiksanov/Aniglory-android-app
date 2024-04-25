@@ -23,8 +23,8 @@
         <FrameLayout
             android:id="@+id/shadow"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:background="@drawable/shadow_gradient">
+            android:layout_height="300dp">
+<!--            android:background="@drawable/shadow_gradient">-->
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
                     android:id="@+id/userAvatar"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:src="@drawable/default_avatar" />
+                    android:src="@drawable/final_default_avatar" />
 
             </androidx.cardview.widget.CardView>
 
@@ -63,6 +63,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -88,6 +89,7 @@
         </LinearLayout>
 
         <Button
+            android:visibility="gone"
             android:id="@+id/btnDonate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,10 +105,11 @@
             android:id="@+id/btnAbout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="1dp"
-            android:background="@drawable/btn_none"
+            android:background="@drawable/btn_top"
             android:text="О ПРИЛОЖЕНИИ"
             android:textColor="@color/btn_text" />
 
