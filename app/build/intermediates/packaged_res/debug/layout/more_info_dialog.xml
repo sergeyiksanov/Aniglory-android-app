@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/new_background"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleTXt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/titleOtherTXt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Title other"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/cntEpisodes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Серий: 24"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/episode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_secondary"
+            android:text="~ 24 мин"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Год: 2023"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Выпускается"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Сериал"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/studio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Студия: MAPPA"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/new_text_primary"
+            android:text="Жанры: MAPPA"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
